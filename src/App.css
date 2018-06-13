@@ -24,12 +24,10 @@
   width: 20%;
   padding: 1rem;
   box-shadow: 2px 2px 3px 3px #e3e3e3;
-  transition: all .2s ease-in-out
 }
 
 .grid-image:hover {
   box-shadow: 2px 2px 3px 3px #d3d3d3;
-  transform: scale(1.023)
 }
 
 @media only screen and (max-width: 1000px) {
