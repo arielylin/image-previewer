@@ -8,7 +8,7 @@ export default class ImageGrid extends Component {
     if (images.length < 1) {
       return (
         <div className="no-images">
-          No images to preview - Why don't you upload some?
+          No images to preview - Try uploading some!
         </div>
       );
     }

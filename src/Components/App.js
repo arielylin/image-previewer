@@ -21,6 +21,7 @@ class App extends Component {
   handleRemoveImages = image => {
     this.setState({
       // filter through state and return all images but the one removed
+      // todo: name is not the same as a photo id, so bug happens when you upload the same image and try to delete one of them.
       images: this.state.images.filter(i => {
         return i.name !== image.name;
       })
