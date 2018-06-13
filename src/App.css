@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.grid-images {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.grid-image {
+  margin: 1rem;
+  width: 30%;
+}
+
+.image {
+  min-width:  200px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 0 auto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.button {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button-upload {
+  margin: 2rem 0;
+}
+
+.image-upload--label:hover {
+  border-bottom: 2px solid #000;
+}
+
+.remove-image--label {
+  font-size: 18px;
+  font-weight: normal;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-bottom: 1px solid transparent;
+}
+
+.remove-image--label:hover {
+  border-bottom: 1px solid #000;
+}
