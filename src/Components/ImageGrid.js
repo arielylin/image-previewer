@@ -4,6 +4,7 @@ import Image from "./Image";
 export default class ImageGrid extends Component {
   render() {
     const { images, removeImage } = this.props;
+    // if there are no images, display a message
     if (images.length < 1) {
       return (
         <div className="no-images">

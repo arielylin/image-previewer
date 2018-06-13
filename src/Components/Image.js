@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 export default class Image extends Component {
-  //
   constructor(...args) {
     super(...args);
     this.state = {
@@ -35,7 +34,7 @@ export default class Image extends Component {
 
   previewFile = () => {
     const reader = new FileReader();
-
+    // set state
     reader.addEventListener(
       "load",
       () => {
