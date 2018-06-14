@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ExifOrientationImg from "react-exif-orientation-img";
 
 export default class Image extends Component {
   constructor(...args) {
@@ -18,9 +17,9 @@ export default class Image extends Component {
 
     return (
       <li key={image.name} className="grid-image">
-        <ExifOrientationImg
+        <div
           className="image"
-          src={this.state.imageData}
+          style={{ backgroundImage: `url(${this.state.imageData})` }}
           alt="preview"
         />
         <div

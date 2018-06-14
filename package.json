@@ -7,6 +7,7 @@
     "node": "8.9.0"
   },
   "dependencies": {
+    "blueimp-load-image": "^2.19.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-exif-orientation-img": "^0.1.5",
