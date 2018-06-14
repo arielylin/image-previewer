@@ -49,13 +49,7 @@
 }
 
 .image {
-  min-height: 200px;
-  max-width: 250px;
-  max-height: 250px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin: 0 auto;
+  max-width: 200px;
 }
 
 input[type="file"] {
